@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0C6833CE1747B7B8004F9123 /* ICETutorialController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6833CD1747B7B8004F9123 /* ICETutorialController.m */; };
 		0C6833D11747B831004F9123 /* ICETutorialPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6833D01747B831004F9123 /* ICETutorialPage.m */; };
+		1D77113517BEC5E300D098E9 /* ICETutorialSlideImageiPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D77113417BEC5E300D098E9 /* ICETutorialSlideImageiPhoneViewController.m */; };
+		1DF87B7B17BDACED00B662BF /* ICETutorialSlideImageController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF87B7917BDACED00B662BF /* ICETutorialSlideImageController_iPhone.xib */; };
 		80A29020171156F6004EA534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A28FF6171156F6004EA534 /* AppDelegate.m */; };
 		80A29026171156F6004EA534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80A28FFD171156F6004EA534 /* InfoPlist.strings */; };
 		80A29027171156F6004EA534 /* ICETutorialController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80A28FFF171156F6004EA534 /* ICETutorialController_iPad.xib */; };
@@ -39,6 +41,9 @@
 		0C6833CD1747B7B8004F9123 /* ICETutorialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETutorialController.m; sourceTree = "<group>"; };
 		0C6833CF1747B831004F9123 /* ICETutorialPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETutorialPage.h; sourceTree = "<group>"; };
 		0C6833D01747B831004F9123 /* ICETutorialPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETutorialPage.m; sourceTree = "<group>"; };
+		1D77113317BEC5E300D098E9 /* ICETutorialSlideImageiPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICETutorialSlideImageiPhoneViewController.h; sourceTree = "<group>"; };
+		1D77113417BEC5E300D098E9 /* ICETutorialSlideImageiPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICETutorialSlideImageiPhoneViewController.m; sourceTree = "<group>"; };
+		1DF87B7A17BDACED00B662BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ICETutorialSlideImageController_iPhone.xib; sourceTree = "<group>"; };
 		80A28FF5171156F6004EA534 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80A28FF6171156F6004EA534 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		80A28FFE171156F6004EA534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -90,6 +95,8 @@
 				0C6833CD1747B7B8004F9123 /* ICETutorialController.m */,
 				0C6833CF1747B831004F9123 /* ICETutorialPage.h */,
 				0C6833D01747B831004F9123 /* ICETutorialPage.m */,
+				1D77113317BEC5E300D098E9 /* ICETutorialSlideImageiPhoneViewController.h */,
+				1D77113417BEC5E300D098E9 /* ICETutorialSlideImageiPhoneViewController.m */,
 			);
 			name = Libraries;
 			path = ICETutorial/Libraries;
@@ -105,6 +112,7 @@
 				80A28FFD171156F6004EA534 /* InfoPlist.strings */,
 				80A28FFF171156F6004EA534 /* ICETutorialController_iPad.xib */,
 				80A29001171156F6004EA534 /* ICETutorialController_iPhone.xib */,
+				1DF87B7917BDACED00B662BF /* ICETutorialSlideImageController_iPhone.xib */,
 				80A2901B171156F6004EA534 /* main.m */,
 			);
 			path = ICETutorial;
@@ -227,6 +235,7 @@
 				80A290A31711660E004EA534 /* button-background@2x.png in Resources */,
 				80A290A6171170FF004EA534 /* background-gradient.png in Resources */,
 				80A290A7171170FF004EA534 /* background-gradient@2x.png in Resources */,
+				1DF87B7B17BDACED00B662BF /* ICETutorialSlideImageController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,12 +250,21 @@
 				80A29041171156F6004EA534 /* main.m in Sources */,
 				0C6833CE1747B7B8004F9123 /* ICETutorialController.m in Sources */,
 				0C6833D11747B831004F9123 /* ICETutorialPage.m in Sources */,
+				1D77113517BEC5E300D098E9 /* ICETutorialSlideImageiPhoneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1DF87B7917BDACED00B662BF /* ICETutorialSlideImageController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF87B7A17BDACED00B662BF /* en */,
+			);
+			name = ICETutorialSlideImageController_iPhone.xib;
+			sourceTree = "<group>";
+		};
 		80A28FFD171156F6004EA534 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

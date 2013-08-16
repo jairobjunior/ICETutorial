@@ -57,6 +57,16 @@
     return self;
 }
 
+// Init.
+- (id)initWithPictureName:(NSString *)pictureName
+{
+    self = [super init];
+    if (self){
+        _pictureName = pictureName;
+    }
+    return self;
+}
+
 - (void)setSubTitleStyle:(ICETutorialLabelStyle *)style{
     [_subTitle setFont:style.font];
     [_subTitle setTextColor:style.textColor];

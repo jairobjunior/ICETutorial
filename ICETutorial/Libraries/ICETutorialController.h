@@ -64,6 +64,8 @@ typedef enum {
 - (void)setPages:(NSArray*)pages;
 - (NSUInteger)numberOfPages;
 
+- (void)setOverlayTexts;
+
 // Actions.
 - (IBAction)didClickOnButton1:(id)sender;
 - (IBAction)didClickOnButton2:(id)sender;

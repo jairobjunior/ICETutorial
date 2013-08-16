@@ -44,6 +44,8 @@
            description:(NSString *)description
            pictureName:(NSString *)pictureName;
 
+- (id)initWithPictureName:(NSString *)pictureName;
+
 - (void)setSubTitleStyle:(ICETutorialLabelStyle *)style;
 - (void)setDescription:(ICETutorialLabelStyle *)style;
 
